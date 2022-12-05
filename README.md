@@ -6,9 +6,9 @@
 <!--Introduction-->
 <h4>Introduction</h4>
 
-Having obtained the statistics for inaugural Canadian Premier League 2019 season, I thought for a while I can do with the statistics. What facts would I want to find out about?
+Having obtained the statistics for inaugural Canadian Premier League 2019 season, I thought for a while with regard to what I can do with the statistics. What facts can I discover in this dataset?
 
-With this script, I present my first findings derived from this dataset - to find out the players putting themselves in great positions and the sharpshooter
+With this script, I present my first findings derived from this dataset - to find out the players putting themselves in great positions and the sharpshooter.
 <br>
 <br>
 <!--Built With: Language and Packages-->
