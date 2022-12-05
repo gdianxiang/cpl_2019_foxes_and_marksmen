@@ -44,6 +44,7 @@ The scatter plot was created with the top quartile of players by number of shots
 <h4>Looking At The Results</h4>
 Based on the produced scatter plot, we are able to see that the best overall performer for Season 2019 was Anthony Novak (Forge FC) and Tyler Attardo (Valour FC).
 
+
 Highly rated foxes for the season based on the data include Easton Ongaro (FC Edmonton), Dominique Malonga (Calvary FC), Jordon Brown (Calvary FC), Emery Welshman (Forge FC), and Marcel Zajac (Forge FC).
 
 Notable marksmen include Julian Büscher (Calvary FC), Victor Blasco (Pacific FC), Christopher Nanco (Forge FC), Tristan Borges (Forge FC), and Dylan Carreiro (Valour FC).
