@@ -5,6 +5,7 @@
 
 <!--Introduction-->
 <h4>Introduction</h4>
+
 Having obtained the statistics for inaugural Canadian Premier League 2019 season, I thought for a while I can do with the statistics. What facts would I want to find out about?
 
 With this script, I present my first findings derived from this dataset - to find out the players putting themselves in great positions and the sharpshooter
@@ -42,8 +43,8 @@ The scatter plot was created with the top quartile of players by number of shots
 <br>
 <!--Observations-->
 <h4>Looking At The Results</h4>
-Based on the produced scatter plot, we are able to see that the best overall performer for Season 2019 was Anthony Novak (Forge FC) and Tyler Attardo (Valour FC).
 
+Based on the produced scatter plot, we are able to see that the best overall performer for Season 2019 was Anthony Novak (Forge FC) and Tyler Attardo (Valour FC).
 
 Highly rated foxes for the season based on the data include Easton Ongaro (FC Edmonton), Dominique Malonga (Calvary FC), Jordon Brown (Calvary FC), Emery Welshman (Forge FC), and Marcel Zajac (Forge FC).
 
