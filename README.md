@@ -38,7 +38,8 @@ The scatter plot was created with the top quartile of players by number of shots
 
 ![Scatter Plot: Foxes & Marksmen CPL 2019](https://github.com/gdianxiang/cpl_2019_foxes_and_marksmen/blob/b2093a974a405a6a60a19209e740a8c69ce4dddc/cpl2019_foxes_marksmen_scatter%20plot_result.png)
 
-
+<br>
+<br>
 <!--Observations-->
 <h4>Looking At The Results</h4>
 Based on the produced scatter plot, we are able to see that the best overall performer for Season 2019 was Anthony Novak (Forge FC) and Tyler Attardo (Valour FC).
@@ -48,7 +49,8 @@ Highly rated foxes for the season based on the data include Easton Ongaro (FC Ed
 Notable marksmen include Julian Büscher (Calvary FC), Victor Blasco (Pacific FC), Christopher Nanco (Forge FC), Tristan Borges (Forge FC), and Dylan Carreiro (Valour FC).
 
 One may also notice that the best Fox (Sergio Camargo, Calvary FC) and Marksman (Julian Büscher, Calvary FC) were extreme outliers in their category, which played a part in making the All-Stars look less impressive on the chart. Checking back on the data, despite being a strong finisher, Julian Büscher took but missed one penalty shot. Nevertheless, they set the respective benchmark for their league for the season based on the statistics provided. Perhaps if the two of them had done a dragonball fusion, Cavalry FC would have been able to win the World Cup.
-
+<br>
+<br>
 <!--Addendum-->
 <h4>Addendum</h4>
 
