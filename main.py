@@ -45,7 +45,7 @@ player_final_non_penalty_goal = []
 player_final_ExpG = []
 for index, row in dataframe.iterrows():
     # Find out player's total shots
-    player_shots = row['SOG'] + row['Off']
+    player_shots = row['SOG'] + row['Off'] - row['PenTaken']
     player_total_shots.append(player_shots)
     # Find out player's total non-penalty goals
     player_non_penalty_goal = row['Goal'] - row['PenGoal']
