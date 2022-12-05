@@ -115,7 +115,7 @@ for i in range(len(annotate_name_team)):
 # Add text to label quadrants - Foxes, Marksmen, All-Stars
 x_lower_anchor = round((min(goals_ExpG) + x_avg) / 2, 2)
 y_upper_anchor = round((max(avg_ExpG_perShot) + y_avg) / 2, 2)
-y_lower_anchor = round((max(avg_ExpG_perShot) / 2  + y_avg) / 2, 2)
+y_lower_anchor = round((max(avg_ExpG_perShot) / 2 + y_avg) / 2, 2)
 plt.text(x=min(goals_ExpG), y=max(avg_ExpG_perShot), s='Foxes', fontsize=15, bbox=dict(boxstyle='round', facecolor='white'))
 plt.text(x=(max(goals_ExpG) * 0.95), y=(y_avg * 0.9), s='Marksmen', fontsize=15, bbox=dict(boxstyle='round', facecolor='white'))
 plt.text(x=(max(goals_ExpG) * 0.95), y=max(avg_ExpG_perShot), s='All-Stars', fontsize=15, bbox=dict(boxstyle='round', facecolor='white'))
