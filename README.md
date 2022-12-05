@@ -1,4 +1,3 @@
-
 <h1 align="center">CPL 2019: Foxes & Marksmen</h1>
 <h3 align="center">Looking at the willy foxes and marksmen in the Canadian Premier League 2019</h3>
 <br>
@@ -8,7 +7,7 @@
 
 Having obtained the statistics for inaugural Canadian Premier League 2019 season, I thought for a while with regard to what I can do with the statistics. What facts can I discover in this dataset?
 
-With this script, I present my first findings derived from this dataset - to find out the players putting themselves in great positions and the sharpshooter.
+With this script, I present my first findings derived from this dataset - to find out the players putting themselves in great positions and the sharpshooters.
 <br>
 <br>
 <!--Built With: Language and Packages-->
@@ -25,7 +24,7 @@ The player season long statistics were in the form of csv. With pandas, I am abl
 
 Two characteristics of a good striker that one can consider is having good positioning and to be able to convert chance. With the objective of trying to measure good positioning, I used the metric of xG/Shots. If the player was able to obtain high average xG per shot that they take, one may presume that they were able to position themselves well to be able to get a high xG shot. For good conversion of chances I used goals/xG as a ratio of how much they were able to overperform with regards to the expected chances they were having.
 
-The data for shots taken were separately presented as shots on target ('SOG'), off target ('Off'), and inclusive of penalties.
+The data for shots taken were separately presented in the csv as shots on target ('SOG'), off target ('Off'), and inclusive of penalties.
 The goals and xG ('ExpG') statistics were also inclusive of penalty shots. Therefore, I had to remove the statistics to penalties as we are looking at how the player performed in open play, and penalties-related statistics will skew our understanding of the statistics.
 
 Players with high average xG (good positioning) are labelled 'foxes', with no indication of their finishing ability, while players who were able to convert their chances well were labelled 'marksmen' for their accuracy (with no indication of their ability to get into good positions). Players who were able to fulfil both criteria were labelled 'all-stars' in recognition of their overall ability.
