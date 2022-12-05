@@ -52,7 +52,5 @@ One may also notice that the best Fox (Sergio Camargo, Calvary FC) and Marksman 
 <!--Addendum-->
 <h4>Addendum</h4>
 * You can also obtain the dataset for free by registering your email [here](https://canpl.ca/centre-circle-data/), with breakdown of data on a game-by-game basis and season overall. Thank you to the Canadian Premier League for your willingness to put out the data for free.
-
 * York9 FC was subsequently renamed York United. For the purpose of this chart I kept to the name as they were officially known then.
-
 * The inaugural Canadian Premier League season in 2019 had only seven teams. Atlético Ottawa joined the league in the 2020 season.
