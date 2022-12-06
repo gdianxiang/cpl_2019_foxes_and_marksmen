@@ -5,7 +5,7 @@
 <!--Introduction-->
 <h4>Introduction</h4>
 
-Having obtained the statistics for inaugural Canadian Premier League 2019 season, I thought for a while with regard to what I can do with the statistics. What facts can I discover in this dataset?
+Having obtained the statistics for the inaugural Canadian Premier League 2019 season, I thought for a while about what I can do with the statistics. What facts can I discover in this dataset?
 
 With this script, I present my first findings derived from this dataset - to find out the players putting themselves in great positions and the sharpshooters.
 <br>
@@ -20,16 +20,16 @@ Packages: Pandas, Matplotlib
 <!--Methodology-->
 <h4>Further Details</h4>
 
-The player season long statistics were in the form of csv. With pandas, I am able to pull the data in the csv into a dataframe and put in additional statistics to be used to plot the scatter plot.
+The player season-long statistics were in the form of csv. With pandas, I can pull the data in the csv into a dataframe and put in additional statistics to be used to plot the scatter plot.
 
-Two characteristics of a good striker that one can consider is having good positioning and to be able to convert chance. With the objective of trying to measure good positioning, I used the metric of xG/Shots. If the player was able to obtain high average xG per shot that they take, one may presume that they were able to position themselves well to be able to get a high xG shot. For good conversion of chances I used goals/xG as a ratio of how much they were able to overperform with regards to the expected chances they were having.
+Two characteristics of what one may consider a good striker are having good positioning and being able to convert chances. With the objective of trying to measure good positioning, I used the metric of xG/Shots. If the player was able to obtain a high average xG per shot that they take, one may presume that they were able to position themselves well to be able to get a high xG shot. For good conversion of chances, I used goals/xG as a ratio of how much they were able to overperform relative to the expected chances they were having.
 
-The data for shots taken were separately presented in the csv as shots on target ('SOG'), off target ('Off'), and inclusive of penalties.
+The data for shots taken were separately presented in the csv as shots on target ('SOG'), off-target ('Off'), and inclusive of penalties.
 The goals and xG ('ExpG') statistics were also inclusive of penalty shots. Therefore, I had to remove the statistics to penalties as we are looking at how the player performed in open play, and penalties-related statistics will skew our understanding of the statistics.
 
 Players with high average xG (good positioning) are labelled 'foxes', with no indication of their finishing ability, while players who were able to convert their chances well were labelled 'marksmen' for their accuracy (with no indication of their ability to get into good positions). Players who were able to fulfil both criteria were labelled 'all-stars' in recognition of their overall ability.
 
-The scatter plot was created with the top quartile of players by number of shots (43 players in this case, more than enough to cover notable players in a league of seven teams) to prevent players with low playing time from skew the statistics (eg. played little but had one good chance). We also want a relatively high number of shots so that we are able to gather a more complete understanding of the actions by the player.
+The scatter plot was created with the top quartile of players by the number of shots (43 players in this case, more than enough to cover notable players in a league of seven teams) to prevent players with low playing time from skewing the statistics (eg. played little but had one good chance). We also want a relatively high number of shots so that we can gather a more complete understanding of the actions made by the player.
 <br>
 <br>
 <!--Results-->
@@ -43,7 +43,7 @@ The scatter plot was created with the top quartile of players by number of shots
 <!--Observations-->
 <h4>Looking At The Results</h4>
 
-Based on the produced scatter plot, we are able to see that the best overall performer for Season 2019 was Anthony Novak (Forge FC) and Tyler Attardo (Valour FC).
+Based on the produced scatter plot, we can see that the best overall performer for Season 2019 was Anthony Novak (Forge FC) and Tyler Attardo (Valour FC).
 
 Highly rated foxes for the season based on the data include Easton Ongaro (FC Edmonton), Dominique Malonga (Calvary FC), Jordon Brown (Calvary FC), Emery Welshman (Forge FC), and Marcel Zajac (Forge FC).
 
@@ -55,8 +55,8 @@ One may also notice that the best Fox (Sergio Camargo, Calvary FC) and Marksman 
 <!--Addendum-->
 <h4>Addendum</h4>
 
-* You can also obtain the dataset for free by registering your email [here](https://canpl.ca/centre-circle-data/), with breakdown of data on a game-by-game basis and season overall. Thank you to the Canadian Premier League for your willingness to put out the data for free.
+* You can also obtain the dataset for free by registering your email [here](https://canpl.ca/centre-circle-data/), with a breakdown of data on a game-by-game basis and season overall. Thank you to the Canadian Premier League for your willingness to put out the data for free.
 
-* York9 FC was subsequently renamed York United. For the purpose of this chart I kept to the name as they were officially known then.
+* York9 FC was subsequently renamed York United. For this chart, I kept to the name as they were officially known then.
 
 * The inaugural Canadian Premier League season in 2019 had only seven teams. Atlético Ottawa joined the league in the 2020 season.
